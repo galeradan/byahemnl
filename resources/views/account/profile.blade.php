@@ -10,7 +10,7 @@
 	<div class="row mt-3">
 		<div class="col-md-12">
 			<h1 id="h1" class="title">Profile</h1>
-			<p>Welcome back, Dan!</p>
+			<p>Welcome back!</p>
 			<hr>
 		</div>
 		
