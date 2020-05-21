@@ -108,9 +108,9 @@
 		                <li class="sublist-group-item">
 		                  <a href="/requests">Manage</a>
 		                </li>
-		                <li class="sublist-group-item">
+		                {{-- <li class="sublist-group-item">
 		                  <a href="#">History</a>
-		                </li>
+		                </li> --}}
 		                
 		              </ul>
 		            </div>

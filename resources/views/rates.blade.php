@@ -2,7 +2,7 @@
 @extends('main')
 
 
-@section('title', 'Home');
+@section('title', 'Rates');
 
 @section('content')
 
