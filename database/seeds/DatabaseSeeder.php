@@ -15,11 +15,11 @@ class DatabaseSeeder extends Seeder
         // $this->call(UserSeeder::class);
 
         $this->call([
-                // RoleSeeder::class,
-                // UserSeeder::class,
-                // CategorySeeder::class,
-                // PhaseSeeder::class,
-                // ApprovalSeeder::class,
+                RoleSeeder::class,
+                UserSeeder::class,
+                CategorySeeder::class,
+                PhaseSeeder::class,
+                ApprovalSeeder::class,
                 StatusSeeder::class,
             ]);
     }
