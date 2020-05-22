@@ -137,15 +137,18 @@ $(document).ready(function(){
 			                          $('#confirmBody').html(data);
 			              // console.log(result);
 			              // window.location.href = "/models"
-			              $('#chooseBody').slideUp(500,function(){
-			              	$('#confirmBody').slideDown(500);
-			              });
-			              $('#chooseFooter').slideUp(200);
-			              $('#confirmFooter').fadeIn(200)
-			              $('#confirmHeader').removeClass('border-none');
-			              $('#chooseHeader').addClass('border-none');
+			              
 			          }
 			      });
+
+
+				$('#chooseBody').slideUp(500,function(){
+					$('#confirmBody').slideDown(500);
+				});
+				$('#chooseFooter').slideUp(200);
+				$('#confirmFooter').fadeIn(200)
+				$('#confirmHeader').removeClass('border-none');
+				$('#chooseHeader').addClass('border-none');
 		}
 		else{
 			alert("Please choose one");
