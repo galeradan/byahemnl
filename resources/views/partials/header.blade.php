@@ -8,6 +8,10 @@
 
 	<title>ByaheMNL | @yield('title')</title>
 
+	<meta property="og:title" content="ByaheMNL" />
+	<meta property="og:description" content="ByaheMNL is an asset management system develop for companies that has a fleet that they want to be rented especially during the pandemic" />
+	<meta property="og:image" content="https://i.ibb.co/BBp5jGK/byahe.png" />
+
 	{{-- Google Fonts --}}
 	{{-- <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet"> --}}
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@500&family=Source+Sans+Pro&display=swap" rel="stylesheet">

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Rental;
 use App\Request;
+use Auth;
 use Illuminate\Http\Request as HttpRequest;
 
 class RentalController extends Controller

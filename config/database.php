@@ -46,15 +46,28 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
+            // db4free
             'host' => env('DB_HOST', 'db4free.net'),
-            // 'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'byahemnl'),
-            // 'database' => env('DB_DATABASE', 'forge'),
             'username' => env('DB_USERNAME', 'byahemnl'),
+            'password' => env('DB_PASSWORD', 'password123'),
+
+            // AWS RDS
+            // 'host' => env('DB_HOST', 'byahemnl1.cmwinlh96b3e.ap-southeast-1.rds.amazonaws.com'),
+            // 'port' => env('DB_PORT', '3306'),
+            // 'database' => env('DB_DATABASE', 'byahe_mnl'),
+            // 'username' => env('DB_USERNAME', 'admin'),
+            // 'password' => env('DB_PASSWORD', 'byahemnl'),
+
+            // Local
+            // 'host' => env('DB_HOST', '127.0.0.1'),
+            // 'port' => env('DB_PORT', '3306'),
+            // 'database' => env('DB_DATABASE', 'forge'),
             // 'username' => env('DB_USERNAME', 'forge'),
             // 'password' => env('DB_PASSWORD', ''),
-            'password' => env('DB_PASSWORD', 'password123'),
+
+
             // 'password' => env('DB_PASSWORD', ''),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
@@ -73,9 +86,9 @@ return [
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'byahemnl'),
-            'username' => env('DB_USERNAME', 'byahemnl'),
-            'password' => env('DB_PASSWORD', 'password123'),
+            'database' => env('DB_DATABASE', 'forge'),
+            'username' => env('DB_USERNAME', 'forge'),
+            'password' => env('DB_PASSWORD', ''),
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,

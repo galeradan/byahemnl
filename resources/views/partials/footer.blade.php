@@ -10,7 +10,7 @@
 	          <div class="col-md-4">
 	            <h6 class="footer-h6"><strong>About Byahe</strong></h6>
 	            <p class="mb-0">
-	              <small class="footer-small">Byahe is a work in progress app</a></small>
+	              <small class="footer-small">ByaheMNL is an asset management system develop for companies that has a fleet that they want to be rented especially during the pandemic</a></small>
 	            </p>
 	          </div>
 
