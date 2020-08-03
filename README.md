@@ -1,2 +1,2 @@
 ### ByaheMNL
-- A bootcamp project using PHP
+- A bootcamp project using PHP, Laravel and MySQL
